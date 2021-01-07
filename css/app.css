@@ -1,0 +1,121 @@
+body {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+main {
+    width: 400px;
+    margin: auto;
+    height: 580px;
+    min-height:480px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px -1px 2px rgb(255, 115, 0), -1px 2px 1px rgb(255, 115, 0);
+    background: rgba(231, 170, 129, 0.5);
+}
+
+.header img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.content {
+    
+}
+
+main .header {
+    position: relative;
+}
+
+.header form {
+    position: absolute;
+    bottom:0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.header form input {
+    padding: 9px;
+    width: 240px;
+    font-size: 1.1em;
+    outline: none;
+    border:none;
+    background: rgba(2, 2, 14, 0.5);
+    border-radius: 10px 0px 0px 10px;
+    color: rgba(211, 202, 204, 0.973);
+}
+
+
+.header form button {
+    padding: 9px;
+    outline: none;
+    width: 50px;
+    border: none;
+    background: rgba(12, 236, 105, 0.575);
+    border-radius: 0px 10px 10px 0px;
+    color:rgba(243, 243, 247, 0.5);
+    cursor: pointer;
+}
+
+.header form button:hover {
+    background: rgba(12, 236, 105, 0.4);
+}
+
+.header form input::-webkit-input-placeholder {
+    color: rgba(161, 152, 153, 0.973);
+}
+.content {
+    margin-top: 10px;
+}
+.item {
+    margin: 10px;
+    background: rgb(192, 235, 255);
+    padding: 12px;
+    font-family:monospace;
+    font-size: 1.1em;
+    text-transform:capitalize;
+    border-radius: 7px;
+}
+
+.lu {
+    margin: 10px;
+    background: rgba(5, 184, 5, 0.733);
+    padding: 12px;
+    font-family:monospace;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    border-radius: 7px;
+
+}
+
+
+
+.item span, .lu span {
+    float: right;
+}
+
+ span i {
+    margin:0px 5px;
+    position: relative;
+}
+
+.item .fa-check {
+    color: rgb(53, 12, 236);
+}
+
+.fa-edit {
+    color: rgb(55, 78, 7);
+}
+
+.item .fa-trash {
+    color:  red;
+}
+
+.lu .fa-trash {
+    color: white;
+}
