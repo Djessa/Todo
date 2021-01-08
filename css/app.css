@@ -5,18 +5,18 @@ body {
 }
 
 main {
-    width: 400px;
+    width: 480px;
     margin: auto;
     height: 580px;
-    min-height:480px;
+    min-height:360px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 1px -1px 2px rgb(255, 115, 0), -1px 2px 1px rgb(255, 115, 0);
-    background: rgba(231, 170, 129, 0.5);
+    box-shadow: 1px -1px 2px rgb(8, 4, 0), -1px 2px 1px rgb(10, 5, 0);
+    background: rgba(21, 29, 7, 0.5);
 }
 
 .header img {
@@ -31,7 +31,7 @@ main .header {
     position: relative;
 }
 
-.header form {
+.header div {
     position: absolute;
     bottom:0%;
     left: 50%;
@@ -39,19 +39,20 @@ main .header {
     display: flex;
 }
 
-.header form input {
+.header  input {
     padding: 9px;
-    width: 240px;
+    width: 350px;
     font-size: 1.1em;
     outline: none;
     border:none;
+    text-align: center;
     background: rgba(2, 2, 14, 0.5);
     border-radius: 10px 0px 0px 10px;
     color: rgba(211, 202, 204, 0.973);
 }
 
 
-.header form button {
+.header button {
     padding: 9px;
     outline: none;
     width: 50px;
@@ -62,33 +63,33 @@ main .header {
     cursor: pointer;
 }
 
-.header form button:hover {
+.header  button:hover {
     background: rgba(12, 236, 105, 0.4);
 }
 
-.header form input::-webkit-input-placeholder {
+.header  input::-webkit-input-placeholder {
     color: rgba(161, 152, 153, 0.973);
 }
 .content {
     margin-top: 10px;
 }
 .item {
-    margin: 10px;
+    margin: 5px;
     background: rgb(192, 235, 255);
     padding: 12px;
     font-family:monospace;
-    font-size: 1.1em;
-    text-transform:capitalize;
+    font-size: 0.9em;
     border-radius: 7px;
+    font-weight: bold;
 }
 
 .lu {
-    margin: 10px;
+    margin: 5px;
     background: rgba(5, 184, 5, 0.733);
     padding: 12px;
+    font-weight: bold;
     font-family:monospace;
-    font-size: 1.1em;
-    text-transform: capitalize;
+    font-size: 0.9em;
     border-radius: 7px;
 
 }
@@ -102,6 +103,7 @@ main .header {
  span i {
     margin:0px 5px;
     position: relative;
+    cursor: pointer;
 }
 
 .item .fa-check {
